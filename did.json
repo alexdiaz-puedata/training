@@ -1,0 +1,23 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
+    ],
+    "id": "did:web:raw.githubusercontent.com:alexdiaz-puedata:training:main",
+    "verificationMethod": [
+      {
+        "id": "did:web:raw.githubusercontent.com:alexdiaz-puedata:training:main#key1",
+        "type": "JsonWebKey2020",
+        "publicKeyJwk": {
+          "kty": "RSA",
+          "n": "xdNNjv6L1yOeVoFqzgnAMLjgs2-rJmavWH5TakTW0TMWylgaF6jDqyScCkwYU9KDMKjJgQvAjzPbap531zvbln6wDQ1hAoPWi2_q9pB_HMepK8zaeZR-2BkxRwy0eMcD989eLTatxP4EIB72yB0-HsjvG9-rYVvts7jSYedMxTt4IBFgFsK0LXv1I1bYtnCaBuP5pY3CcyBa8nYb3vQ9D6tF1mOPmOy8sLtDLn_BqzNQH1mW_Zu94GE9ZMszp-nAVtbGaEGcjPgczlpEG4K_GiYrGz76PRo4VvzIc9P24uZDO4_xRr-fcheoLD6J5iyjGDOZrJWrzxduME55q1LNew",
+          "e": "AQAB",
+          "alg": "RS256",
+          "x5u": "https://raw.githubusercontent.com/alexdiaz-puedata/training/main/public_key.pem"
+        }
+      }
+    ],
+    "assertionMethod": [
+      "did:web:raw.githubusercontent.com:alexdiaz-puedata:training:main#key1"
+    ]
+  }
